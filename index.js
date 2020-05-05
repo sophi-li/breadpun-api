@@ -5,8 +5,7 @@ const breadpuns = require("./breadpuns");
 const app = express();
 
 app.get("/", (req, res) => {
-  res.json(breadpuns[Math.floor(Math.random() * breadpuns.length)]);
-  //   res.json({ msg: getBreadPun() });
+  res.json({ msg: getBreadPun() });
 });
 
 let PORT = process.env.PORT || 3000;
