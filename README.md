@@ -17,13 +17,10 @@ npm install
 # Install dependencies for client
 npm run client install
 
-# Run client & sever with concurrently
-npm run dev
-
-# Run React client only
+# Run React client
 npm run client
 
-# Run Express server only
+# Run Express server
 npm run server
 ```
 
