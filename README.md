@@ -14,13 +14,11 @@
 # Install dependencies for server
 npm install
 
-
 # Install dependencies for client
-npm install
+npm run client install
 
 # Run client & sever with concurrently
 npm run dev
-
 
 # Run React client only
 npm run client
