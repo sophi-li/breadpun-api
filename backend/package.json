@@ -5,9 +5,9 @@
     "node": "12.13.0"
   },
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node index",
+    "start": "node server",
     "server": "nodemon server.js",
     "client": "npm start --prefix client"
   },
