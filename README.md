@@ -12,15 +12,19 @@
 
 ```sh
 # Install dependencies for server
-npm install
+cd backend
+npm  install
 
 # Install dependencies for client
-npm run client install
+cd client
+npm install
 
 # Run React client
-npm run client
+cd client
+npm start
 
 # Run Express server
+cd server
 npm run server
 ```
 
