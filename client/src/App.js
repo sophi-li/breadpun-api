@@ -13,11 +13,7 @@ const App = () => {
   return (
     <div>
       <h1>Bread Puns</h1>
-      <ul>
-        {breadpun.map((pun) => (
-          <li key={pun}>{pun}</li>
-        ))}
-      </ul>
+      {breadpun}
     </div>
   );
 };
