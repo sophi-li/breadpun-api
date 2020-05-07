@@ -10,7 +10,9 @@ sophia is bad at updating radhika about very important things
 
 you know, this gets me thinking, i've told you for literally 4 months now you can use me for stuff and here we are, with you only asking me for help once, and in that case i basically had to extend myself to help because you didn't actually expect me to get it
 
-i don't know if you're just not a fan of mixing the professional and the personal, but yet, here is where we are -- it's the bay area and there is no difference between the two
+i don't know if you're just not a fan of mixing the professional and the persona
+
+adding another line because PERMISSIONS
 
 xoxo radhika
 
