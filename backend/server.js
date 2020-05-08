@@ -1,17 +1,14 @@
 const express = require("express");
-const cors = require("cors");
-const getBreadPun = require("./getBreadPun");
+const router = require("./routes");
 
 const app = express();
 
 let PORT = process.env.PORT || 3001;
 
+app.use("/api", router);
+
 app.listen(PORT, () => {
   console.log(`Server running on ${PORT} `);
-});
-
-app.get("/api/breadpuns", cors(), (req, res) => {
-  res.json(getBreadPun());
 });
 
 module.exports = app;
