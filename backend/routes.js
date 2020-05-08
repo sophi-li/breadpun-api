@@ -11,3 +11,5 @@ router.get("/", cors(), (req, res) => {
 router.get("/breadpuns", cors(), (req, res) => {
   res.json(getBreadPun());
 });
+
+module.exports = router;
