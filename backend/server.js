@@ -4,15 +4,13 @@ const getBreadPun = require("./getBreadPun");
 
 const app = express();
 
-app.use(cors());
-
 let PORT = process.env.PORT || 3001;
 
 app.listen(PORT, () => {
   console.log(`Server running on ${PORT} `);
 });
 
-app.get("/api/breadpuns", (req, res) => {
+app.get("/api/breadpuns", cors(), (req, res) => {
   res.json(getBreadPun());
 });
 
