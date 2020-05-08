@@ -6,7 +6,7 @@
   </a>
 </p>
 
-> All the bread puns one might ever knead.
+> All the bread puns one might ever knead. Let's GET /that/bread!
 
 ## API
 
