@@ -1,7 +1,11 @@
 const express = require("express");
+const cors = require("cors");
 const getBreadPun = require("./getBreadPun");
 
 const app = express();
+
+app.use(cors());
+
 let PORT = process.env.PORT || 3001;
 
 app.listen(PORT, () => {
