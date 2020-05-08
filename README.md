@@ -8,7 +8,23 @@
 
 > All the bread puns one might ever knead.
 
-## Install
+## API
+
+Quotes are returned in the following format:
+
+```
+[
+  "Let me bake you an API."
+]
+```
+
+### `GET /api/breadpuns`
+
+Returns a single random quote.
+
+https://my-bao-server.herokuapp.com/api/breadpuns
+
+## Install & Local Development
 
 ```sh
 # Install dependencies for server
