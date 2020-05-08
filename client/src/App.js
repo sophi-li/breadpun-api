@@ -5,7 +5,7 @@ const App = () => {
   const [breadpun, setBreadPun] = useState([]);
 
   useEffect(() => {
-    fetch("api/breadpuns")
+    fetch("https://my-bao-server.herokuapp.com/api/breadpuns")
       .then((res) => res.json())
       .then((bp) => setBreadPun([bp]));
   }, []);
