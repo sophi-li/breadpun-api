@@ -7,7 +7,7 @@ const Breadpuns = [
   "Bread-er late than never!",
   "Dough-oh!",
   "GET /that/bread!",
-  "I hopese bread puns aren't falling flat...",
+  "I hop these bread puns aren't falling flat...",
   "I'm on a roll!",
   "You're adoughable!",
   "Wanna a slice of this? It's the yeast I could do.",
