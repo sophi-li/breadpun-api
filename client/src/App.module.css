@@ -1,0 +1,54 @@
+.title {
+  text-decoration: underline #e63946;
+}
+
+body {
+  background-color: #f1faee;
+}
+
+.container {
+  justify-content: left;
+  padding: 2rem;
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.breadpunPhoto {
+  margin-top: 1rem;
+  width: 300px;
+}
+
+.endpointsHeader {
+  text-decoration: #457b9d underline;
+}
+
+.getContainer {
+  padding: 1rem;
+  background-color: #a8dadc;
+  margin-bottom: 1rem;
+}
+
+.getHeader {
+  padding: 1rem;
+  border: 3px solid black;
+  background-color: #f1faee;
+}
+
+@media screen and (min-width: 600px) {
+  .container {
+    max-width: 90%;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .container {
+    max-width: 80%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .container {
+    max-width: 60%;
+  }
+}
