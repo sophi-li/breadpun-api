@@ -1,4 +1,5 @@
-.title {
+.title,
+.endpointsHeader {
   text-decoration: underline #e63946;
 }
 
@@ -14,13 +15,13 @@ body {
   margin: 0 auto;
 }
 
+.breadpun {
+  font-size: 1.5rem;
+}
+
 .breadpunPhoto {
   margin-top: 1rem;
   width: 300px;
-}
-
-.endpointsHeader {
-  text-decoration: #457b9d underline;
 }
 
 .getContainer {

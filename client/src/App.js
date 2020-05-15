@@ -13,7 +13,7 @@ const App = () => {
   return (
     <div className={style.container}>
       <h1 className={style.title}>Bread Puns API</h1>
-      <div>{breadpun}</div>
+      <p className={style.breadpun}>{breadpun}</p>
       <img
         src={breadpunPhoto}
         alt="ourdough bread cross section"
