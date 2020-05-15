@@ -20,9 +20,15 @@ Quotes are returned in the following format:
 
 ### `GET /api/breadpuns`
 
-Returns a single random quote.
+Returns a single random pun.
 
 https://my-bao-server.herokuapp.com/api/breadpuns
+
+### `GET /api/allbreadpuns`
+
+Returns all bread puns.
+
+https://my-bao-server.herokuapp.com/api/allbreadpuns
 
 ## Install & Local Development
 
@@ -40,7 +46,7 @@ cd client
 npm start
 
 # Run Express server
-cd server
+cd backend
 npm run server
 ```
 
