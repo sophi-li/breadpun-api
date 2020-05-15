@@ -8,6 +8,10 @@
 
 > All the bread puns one might ever knead. Let's GET /that/bread!
 
+## Client
+
+https://my-bao-client3.herokuapp.com/
+
 ## API
 
 Quotes are returned in the following format:
@@ -20,13 +24,13 @@ Quotes are returned in the following format:
 
 ### `GET /api/breadpuns`
 
-Returns a single random pun.
+Returns a single random bread pun.
 
 https://my-bao-server.herokuapp.com/api/breadpuns
 
 ### `GET /api/allbreadpuns`
 
-Returns all bread puns.
+Returns an array of all bread puns.
 
 https://my-bao-server.herokuapp.com/api/allbreadpuns
 
