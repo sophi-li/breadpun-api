@@ -17,6 +17,7 @@ const Breadpuns = [
   "That toast is toastally delicious!",
   "Stop loafing around!",
   "Are these bread buns rising to the occasion?",
+  "You look loafly today!",
 ];
 
 module.exports = Breadpuns;
