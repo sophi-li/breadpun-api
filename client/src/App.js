@@ -1,14 +1,14 @@
-import React, { useState, useEffect } from "react";
-import style from "./App.module.css";
-import breadpunPhoto from "./Breadpun.jpg";
+import React, { useState, useEffect } from 'react'
+import style from './App.module.css'
+import breadpunPhoto from './Breadpun.jpg'
 const App = () => {
-  const [breadpun, setBreadPun] = useState([]);
+  const [breadpun, setBreadPun] = useState([])
 
   useEffect(() => {
-    fetch("https://my-bao-server.herokuapp.com/api/breadpuns")
+    fetch('https://my-bao-server.herokuapp.com/api/breadpuns')
       .then((res) => res.json())
-      .then((bp) => setBreadPun([bp]));
-  }, []);
+      .then((bp) => setBreadPun([bp]))
+  }, [])
 
   return (
     <div className={style.container}>
@@ -16,7 +16,7 @@ const App = () => {
       <p className={style.breadpun}>{breadpun}</p>
       <img
         src={breadpunPhoto}
-        alt="ourdough bread cross section"
+        alt="sourdough bread cross section"
         className={style.breadpunPhoto}
       ></img>
 
@@ -38,7 +38,7 @@ const App = () => {
         </a>
       </section>
     </div>
-  );
-};
+  )
+}
 
-export default App;
+export default App
