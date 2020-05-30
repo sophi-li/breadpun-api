@@ -60,3 +60,7 @@ npm run server
 
 - Twitter: [@sophia_wyl](https://twitter.com/sophia_wyl)
 - GitHub: [@sophi-li](https://github.com/sophi-li)
+
+## Acknowledgments
+
+Icons made by [Freepik](https://www.flaticon.com/authors/freepik) from [flaticon.com](www.flaticon.com).
