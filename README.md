@@ -61,6 +61,16 @@ npm run server
 - Twitter: [@sophia_wyl](https://twitter.com/sophia_wyl)
 - GitHub: [@sophi-li](https://github.com/sophi-li)
 
+## Contributing
+
+Issues and pull requests are welcome. This codebase follows the [Contributor Covenant standard](https://github.com/sophi-li/breadpun-api/blob/master/CODE_OF_CONDUCT.md).
+
+## License
+
+[MIT](https://github.com/sophi-li/breadpun-api/blob/master/LICENSE)
+
 ## Acknowledgments
 
 Icons made by [Freepik](https://www.flaticon.com/authors/freepik) from [flaticon.com](www.flaticon.com).
+
+
