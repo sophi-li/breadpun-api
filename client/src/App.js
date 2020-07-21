@@ -3,17 +3,23 @@ import style from './App.module.css'
 import breadpunPhoto from './Breadpun.jpg'
 const App = () => {
   const [breadpun, setBreadPun] = useState([])
+  const [isLoading, setIsLoading] = useState(true)
 
   useEffect(() => {
     fetch('https://my-bao-server.herokuapp.com/api/breadpuns')
       .then((res) => res.json())
       .then((bp) => setBreadPun([bp]))
+      .then(setIsLoading(false))
   }, [])
 
   return (
     <div className={style.container}>
       <h1 className={style.title}>Bread Puns API</h1>
-      <p className={style.breadpun}>{breadpun}</p>
+      {isLoading ? (
+        <p className={style.breadpun}>One sec, your breading pun is baking!</p>
+      ) : (
+        <p className={style.breadpun}> {breadpun}</p>
+      )}
       <img
         src={breadpunPhoto}
         alt="sourdough bread cross section"
