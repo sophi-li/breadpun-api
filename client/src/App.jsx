@@ -24,14 +24,18 @@ const App = () => {
         src={breadpunPhoto}
         alt="sourdough bread cross section"
         className={style.breadpunPhoto}
-      ></img>
+      />
 
       <h2 className={style.endpointsHeader}>Endpoints</h2>
 
       <section className={style.getContainer}>
         <h3 className={style.getHeader}>GET /api/breadpuns</h3>
         <p>Returns a single random bread pun.</p>
-        <a href="https://my-bao-server.herokuapp.com/api/breadpuns">
+        <a
+          href="https://my-bao-server.herokuapp.com/api/breadpuns"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           https://my-bao-server.herokuapp.com/api/breadpuns
         </a>
       </section>
@@ -39,7 +43,11 @@ const App = () => {
       <section className={style.getContainer}>
         <h3 className={style.getHeader}>GET /api/allbreadpuns</h3>
         <p>Returns an array of all bread puns.</p>
-        <a href="https://my-bao-server.herokuapp.com/api/allbreadpuns">
+        <a
+          href="https://my-bao-server.herokuapp.com/api/allbreadpuns"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           https://my-bao-server.herokuapp.com/api/allbreadpuns
         </a>
       </section>
