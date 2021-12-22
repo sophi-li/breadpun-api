@@ -24,6 +24,24 @@ body {
   width: 300px;
 }
 
+.newBreadPunContainer {
+  margin: 1rem 0;
+}
+
+.newBreadPunBtn {
+  background-color: #f1faee;
+  padding: 0.5rem 2rem;
+  border: 2px solid #e63946;
+  border-radius: 3px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.newBreadPunBtn:hover {
+  background-color: #e63946;
+  color: white;
+}
+
 .getContainer {
   padding: 1rem;
   background-color: #a8dadc;

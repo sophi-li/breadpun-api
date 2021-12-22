@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import style from './App.module.css'
 import breadpunPhoto from './Breadpun.jpg'
+
 const App = () => {
   const [breadpun, setBreadPun] = useState([])
   const [isLoading, setIsLoading] = useState(true)
@@ -11,6 +12,12 @@ const App = () => {
       .then((bp) => setBreadPun([bp]))
       .then(setIsLoading(false))
   }, [])
+
+  const handleNewPunClick = () => {
+    fetch('https://my-bao-server.herokuapp.com/api/breadpuns')
+      .then((res) => res.json())
+      .then((bp) => setBreadPun([bp]))
+  }
 
   return (
     <div className={style.container}>
@@ -25,6 +32,11 @@ const App = () => {
         alt="sourdough bread cross section"
         className={style.breadpunPhoto}
       />
+      <div className={style.newBreadPunContainer}>
+        <button onClick={handleNewPunClick} className={style.newBreadPunBtn}>
+          Bake me another pun
+        </button>
+      </div>
 
       <h2 className={style.endpointsHeader}>Endpoints</h2>
 
