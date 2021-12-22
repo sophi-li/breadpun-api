@@ -1,16 +1,16 @@
 import React, { useState, useEffect } from 'react'
 import style from './App.module.css'
-import breadpunPhoto from './Breadpun.jpg'
+import breadPunPhoto from './Breadpun.jpg'
 
 const App = () => {
-  const [breadpun, setBreadPun] = useState([])
+  const [breadPun, setBreadPun] = useState([])
   const [isLoading, setIsLoading] = useState(true)
 
   useEffect(() => {
     fetch('https://my-bao-server.herokuapp.com/api/breadpuns')
       .then((res) => res.json())
       .then((bp) => setBreadPun([bp]))
-      .then(setIsLoading(false))
+      .then(() => setIsLoading(false))
   }, [])
 
   const handleNewPunClick = () => {
@@ -23,14 +23,14 @@ const App = () => {
     <div className={style.container}>
       <h1 className={style.title}>Bread Puns API</h1>
       {isLoading ? (
-        <p className={style.breadpun}>One sec, your breading pun is baking!</p>
+        <p className={style.breadPun}>One sec, your breading pun is baking!</p>
       ) : (
-        <p className={style.breadpun}> {breadpun}</p>
+        <p className={style.breadPun}> {breadPun}</p>
       )}
       <img
-        src={breadpunPhoto}
+        src={breadPunPhoto}
         alt="sourdough bread cross section"
-        className={style.breadpunPhoto}
+        className={style.breadPunPhoto}
       />
       <div className={style.newBreadPunContainer}>
         <button onClick={handleNewPunClick} className={style.newBreadPunBtn}>
